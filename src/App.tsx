@@ -1,15 +1,14 @@
 import './App.css'
+import { AuthWrapper } from './components/AuthWrapper'
+import { MeetingPlaces } from './components/MeetingPlaces'
 
-// import { Amplify } from 'aws-amplify';
-// import outputs from "../amplify_outputs.json";
-
-// Amplify.configure(outputs);
 
 function App() {
 
   return (
     <>
-      <h1>Hello World</h1>
+      <MeetingPlaces />
+      <AuthWrapper />
     </>
   )
 }
